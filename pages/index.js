@@ -74,6 +74,7 @@ const LinkContainer = styled.div`
 
 const HeaderText = styled.div`
   text-align: center;
+  margin-bottom: 20px;
   span {
     font-size: 18px !important;
     color: white;
