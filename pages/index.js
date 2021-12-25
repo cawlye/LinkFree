@@ -1,6 +1,9 @@
 import Head from "next/head";
+import Link from "next/link";
 import styled from "styled-components";
+import { LinkFree } from "../data/data";
 export default function Home() {
+  const { links, header } = LinkFree;
   return (
     <>
       <style jsx global>{`
@@ -11,6 +14,7 @@ export default function Home() {
           margin: 0;
           background: black;
           font-family: "Inter", sans-serif;
+          overflow-x: hidden;
         }
       `}</style>
       <Head>
@@ -21,15 +25,18 @@ export default function Home() {
         <ImageConatiner src="https://github.com/DeLTA-SJEC.png" />
         <HeaderText>
           <p>
-            <span>Delta SJEC</span> <br />
-            Building an Inclusive Developer Group!
+            <span>{header.text}</span> <br />
+            {header.subText}
           </p>
         </HeaderText>
-
-        <LinkContainer>
-          <LinkImg id="linkImage" src="https://delta-sjec.tech/favicon.png" />
-          <p>Discord</p>
-        </LinkContainer>
+        {links.map((link) => (
+          <Link key={link.id} href={link.url}>
+            <LinkContainer>
+              <LinkImg id="linkImage" src={link.img} />
+              <p>{link.name}</p>
+            </LinkContainer>
+          </Link>
+        ))}
       </BodySection>
     </>
   );
@@ -37,22 +44,27 @@ export default function Home() {
 
 const LinkImg = styled.img`
   margin-left: 10px;
-  max-width: 60px;
-  max-height: 60px;
-  border-radius: 2px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
 `;
 
 const LinkContainer = styled.div`
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  cursor: pointer;
+  width: 50vw;
   color: white;
   width: 50vw;
   height: 10vh;
   background: #222222;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  @media (max-width: 768px) {
+    width: 90vw;
+    text-align: center;
+  }
   :hover {
     background: #333333;
     transform: scale(1.05);
@@ -63,11 +75,11 @@ const LinkContainer = styled.div`
 const HeaderText = styled.div`
   text-align: center;
   span {
-    font-size: 16px !important;
+    font-size: 18px !important;
     color: white;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
   }
 `;
