@@ -18,11 +18,10 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>Delta SJEC | Linktree</title>
-        <link rel="png" href="https://delta-sjec.tech/favicon.png" />
+        <title>{header.text} | Linktree</title>
       </Head>
       <BodySection>
-        <ImageConatiner src="https://github.com/DeLTA-SJEC.png" />
+        <ImageConatiner src={header.image} />
         <HeaderText>
           <p>
             <span>{header.text}</span> <br />
