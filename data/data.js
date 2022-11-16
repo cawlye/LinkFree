@@ -16,13 +16,13 @@ export const LinkFree = {
       id: 2,
       name: "Github",
       url: "https://github.com/indox0d3",
-      img: "https://img.icons8.com/ios/344/github--v1.png",
+      img: "https://img.icons8.com/plasticine/100/null/github.png",
     },
     {
       id: 3,
       name: "Instagram",
       url: "https://www.instagram.com/cawlyee/",
-      img: "https://img.icons8.com/fluency/344/instagram-new.png",
+      img: "https://img.icons8.com/clouds/100/null/instagram-new--v3.png",
     },
     {
       id: 4,
@@ -34,6 +34,6 @@ export const LinkFree = {
   header: {
     text: "Cawlye",
     subText: "Hi how your day?",
-    image: "http://aniexty.my.id/image/cawlye.jpeg",
+    image: "https://aniexty.my.id/image/cawlye.jpeg",
   },
 };
