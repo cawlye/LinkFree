@@ -34,6 +34,6 @@ export const LinkFree = {
   header: {
     text: "Cawlye",
     subText: "Hi how your day?",
-    image: "https://aniexty.my.id/image/cawlye.jpeg",
+    image: "https://a.top4top.io/p_2510lkslc1.png",
   },
 };
