@@ -4,13 +4,13 @@ export const LinkFree = {
       id: 0,
       name: "Cawlye Komik",
       url: "https://komik.cawlye.my.id/",
-      img: "https://img.icons8.com/color/344/internet--v1.png",
+      img: "https://img.icons8.com/nolan/64/open-comic-book.png",
     },
     {
       id: 1,
       name: "Cawlye Stream",
       url: "https://stream.cawlye.my.id",
-      img: "https://img.icons8.com/fluency/344/discord-logo.png",
+      img: "https://img.icons8.com/bubbles/50/null/netflix-desktop-app.png",
     },
     {
       id: 2,
@@ -26,14 +26,14 @@ export const LinkFree = {
     },
     {
       id: 4,
-      name: "Linkedin",
-      url: "https://www.linkedin.com/company/gdsc-sjec/",
-      img: "https://img.icons8.com/color/344/linkedin-circled--v1.png",
+      name: "Telegram",
+      url: "https://t.me/cawlye/",
+      img: "https://img.icons8.com/clouds/100/null/telegram-app.png",
     },
   ],
   header: {
-    text: "GDSC SJEC",
+    text: "Cawlye",
     subText: "Hi how your day?",
-    image: "https://avatars.githubusercontent.com/u/93979833?s=200&v=4",
+    image: "http://aniexty.my.id/image/cawlye.jpeg",
   },
 };
