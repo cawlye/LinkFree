@@ -33,7 +33,8 @@ export const LinkFree = {
   ],
   header: {
     text: "Cawlye",
-    subText: "Hi how your day?",
+    subText: "hi how your day?",
+    subText: "pemalas yang sangat haus akan ilmu pengetahuan",
     image: "https://a.top4top.io/p_2510lkslc1.png",
   },
 };
