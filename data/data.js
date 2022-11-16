@@ -2,26 +2,26 @@ export const LinkFree = {
   links: [
     {
       id: 0,
-      name: "GDSC SJEC",
-      url: "https://gdscsjec.in/",
+      name: "Cawlye Komik",
+      url: "https://komik.cawlye.my.id/",
       img: "https://img.icons8.com/color/344/internet--v1.png",
     },
     {
       id: 1,
-      name: "Discord",
-      url: "https://discord.gg/fjQWQZ",
+      name: "Cawlye Stream",
+      url: "https://stream.cawlye.my.id",
       img: "https://img.icons8.com/fluency/344/discord-logo.png",
     },
     {
       id: 2,
       name: "Github",
-      url: "https://github.com/GDSC-SJEC",
+      url: "https://github.com/indox0d3",
       img: "https://img.icons8.com/ios/344/github--v1.png",
     },
     {
       id: 3,
       name: "Instagram",
-      url: "https://www.instagram.com/gdsc.sjec/",
+      url: "https://www.instagram.com/cawlyee/",
       img: "https://img.icons8.com/fluency/344/instagram-new.png",
     },
     {
@@ -33,7 +33,7 @@ export const LinkFree = {
   ],
   header: {
     text: "GDSC SJEC",
-    subText: "Building an Inclusive Developer Group!",
+    subText: "Hi how your day?",
     image: "https://avatars.githubusercontent.com/u/93979833?s=200&v=4",
   },
 };
