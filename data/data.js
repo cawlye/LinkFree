@@ -3,7 +3,6 @@ export const LinkFree = {
     {
       id: 0,
       name: "Cawlye Komik",
-      subText: "Baca komik secara gratis",
       url: "https://komik.cawlye.my.id/",
       img: "https://img.icons8.com/nolan/64/open-comic-book.png",
     },
