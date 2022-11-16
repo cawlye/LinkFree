@@ -3,13 +3,13 @@ export const LinkFree = {
     {
       id: 0,
       name: "Cawlye Komik",
-      url: "https://komik.cawlye.my.id/",
+      url: "https://komik.cawlyeee.repl.co",
       img: "https://img.icons8.com/nolan/64/open-comic-book.png",
     },
     {
       id: 1,
       name: "Cawlye Stream",
-      url: "https://stream.cawlye.my.id",
+      url: "https://ytta.trtnnb.repl.co",
       img: "https://img.icons8.com/bubbles/50/null/netflix-desktop-app.png",
     },
     {
