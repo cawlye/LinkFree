@@ -18,7 +18,7 @@ export default function Home() {
         }
       `}</style>
       <Head>
-        <title>{header.text} | Linktree</title>
+        <title>{header.text} | Home</title>
       </Head>
       <BodySection>
         <ImageConatiner src={header.image} />
