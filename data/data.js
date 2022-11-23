@@ -3,7 +3,7 @@ export const LinkFree = {
     {
       id: 0,
       name: "Cawlye Komik",
-      url: "https://baca-komik-pi.vercel.app",
+      url: "https://manggaindo.my.id",
       img: "https://img.icons8.com/nolan/64/open-comic-book.png",
     },
     {
