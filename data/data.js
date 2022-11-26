@@ -14,9 +14,9 @@ export const LinkFree = {
     },
     {
       id: 2,
-      name: "Github",
-      url: "https://github.com/indox0d3",
-      img: "https://img.icons8.com/plasticine/100/null/github.png",
+      name: "Bot Penjawab soal",
+      url: "https://aniexty.my.id/p/",
+      img: "https://img.icons8.com/bubbles/50/null/brainly.png",
     },
     {
       id: 3,
